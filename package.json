@@ -1,0 +1,23 @@
+{
+  "name": "phone-farm",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for the Echos Automation phone farm API",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.0.0",
+    "rollup": "^4.0.0",
+    "tslib": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}
